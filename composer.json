@@ -1,0 +1,23 @@
+{
+  "name": "noroman/randtest",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Novikov Roman",
+      "email": "service.for.roman@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Response\\": "Response/",
+      "Controllers\\": "Controllers/",
+      "Router\\": "Router/",
+      "RandCache\\": "RandCache/"
+    }
+  },
+  "require": {
+    "psr/simple-cache": "^1.0",
+    "psr/cache": "^1.0"
+  }
+}
